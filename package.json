@@ -1,0 +1,70 @@
+{
+  "name": "@0sfs/sf-50",
+  "version": "0.1.0",
+  "private": true,
+  "description": "The Cirrus SF50 Vision Jet for 0SFS: its generations, JSBSim models and systems, models and validation.",
+  "license": "AGPL-3.0-only",
+  "type": "module",
+  "exports": {
+    "./evaluateSf50AfmMeasurement": {
+      "source": "./src/evaluateSf50AfmMeasurement.ts",
+      "default": "./src/evaluateSf50AfmMeasurement.ts"
+    },
+    "./sf50AfmBenchmark": {
+      "source": "./src/sf50AfmBenchmark.ts",
+      "default": "./src/sf50AfmBenchmark.ts"
+    },
+    "./sf50AfmData": {
+      "source": "./src/sf50AfmData.ts",
+      "default": "./src/sf50AfmData.ts"
+    },
+    "./sf50AfmReferenceCases": {
+      "source": "./src/sf50AfmReferenceCases.ts",
+      "default": "./src/sf50AfmReferenceCases.ts"
+    },
+    "./sf50ExpandedEvidence": {
+      "source": "./src/sf50ExpandedEvidence.ts",
+      "default": "./src/sf50ExpandedEvidence.ts"
+    },
+    "./sf50LandingPilot": {
+      "source": "./src/sf50LandingPilot.ts",
+      "default": "./src/sf50LandingPilot.ts"
+    },
+    "./sf50PilotController": {
+      "source": "./src/sf50PilotController.ts",
+      "default": "./src/sf50PilotController.ts"
+    },
+    "./sf50PilotProfiles": {
+      "source": "./src/sf50PilotProfiles.ts",
+      "default": "./src/sf50PilotProfiles.ts"
+    },
+    "./sf50PublicEvidence": {
+      "source": "./src/sf50PublicEvidence.ts",
+      "default": "./src/sf50PublicEvidence.ts"
+    },
+    "./sf50ReferenceData": {
+      "source": "./src/sf50ReferenceData.ts",
+      "default": "./src/sf50ReferenceData.ts"
+    },
+    "./sf50SyntheticLoading": {
+      "source": "./src/sf50SyntheticLoading.ts",
+      "default": "./src/sf50SyntheticLoading.ts"
+    },
+    "./sf50Variants": {
+      "source": "./src/sf50Variants.ts",
+      "default": "./src/sf50Variants.ts"
+    },
+    "./package.json": "./package.json"
+  },
+  "peerDependencies": {
+    "@0sfs/aircraft": "0.1.0"
+  },
+  "peerDependenciesMeta": {
+    "@0sfs/aircraft": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "vitest": "4.1.6"
+  }
+}
