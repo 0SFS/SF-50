@@ -54,7 +54,8 @@
       "source": "./src/sf50Variants.ts",
       "default": "./src/sf50Variants.ts"
     },
-    "./package.json": "./package.json"
+    "./package.json": "./package.json",
+    "./manifest": "./public/0sfs-mod.json"
   },
   "peerDependencies": {
     "@0sfs/aircraft": "0.1.0"
@@ -66,5 +67,8 @@
   },
   "devDependencies": {
     "vitest": "4.1.6"
+  },
+  "scripts": {
+    "validate": "node scripts/validate-mod.mjs"
   }
 }
