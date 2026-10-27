@@ -4,8 +4,7 @@ Regenerate the reference crops used for measurement, into measurements/crops/.
     blender -b --factory-startup --python make_crops.py --
 
 Every crop is a region of `measurements/ref_SF50_three_view_1200dpi.png` or of
-one of the reference photographs, so this is reproducible from what is in the
-repository - nothing here lives outside it.
+one of the reference photographs.
 """
 import bpy, os, sys
 import numpy as np

@@ -16,7 +16,7 @@ blender -b --factory-startup --python scripts/make_crops.py --
 ```
 
 so a crop is never a file someone made once by hand — it is a region of one of
-the sources below, reproducible from what is in this repository.
+the sources below.
 
 ---
 
