@@ -120,7 +120,10 @@
               "note": "Measured reconstruction, designed explicitly for max runtime speed."
             }
           }
-        ]
+        ],
+        "camera": {
+          "follow": "aircraft"
+        }
       },
       {
         "id": "cirrus-vision-jet-g2",
@@ -182,7 +185,10 @@
               "note": "Measured reconstruction, designed explicitly for max runtime speed."
             }
           }
-        ]
+        ],
+        "camera": {
+          "follow": "aircraft"
+        }
       },
       {
         "id": "cirrus-vision-jet-g3",
@@ -244,7 +250,10 @@
               "note": "Measured reconstruction, designed explicitly for max runtime speed."
             }
           }
-        ]
+        ],
+        "camera": {
+          "follow": "aircraft"
+        }
       }
     ],
     "fdmProfiles": {
